@@ -92,388 +92,11 @@ df.head(5)
 
 
 
-
-
-  <div id="df-c0718b13-8ef8-4b89-abdc-546bce3b5a07">
-    <div class="colab-df-container">
-      <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>bookId</th>
-      <th>ratingsByStars</th>
-      <th>publishDate</th>
-      <th>genres</th>
-      <th>rating</th>
-      <th>pages</th>
-      <th>title</th>
-      <th>author</th>
-      <th>language</th>
-      <th>description</th>
-      <th>coverImg</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>2767052-the-hunger-games</td>
-      <td>['3444695', '1921313', '745221', '171994', '93...</td>
-      <td>09/14/08</td>
-      <td>['Young Adult', 'Fiction', 'Dystopia', 'Fantas...</td>
-      <td>4.33</td>
-      <td>374</td>
-      <td>The Hunger Games</td>
-      <td>Suzanne Collins</td>
-      <td>English</td>
-      <td>WINNING MEANS FAME AND FORTUNE.LOSING MEANS CE...</td>
-      <td>https://i.gr-assets.com/images/S/compressed.ph...</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2.Harry_Potter_and_the_Order_of_the_Phoenix</td>
-      <td>['1593642', '637516', '222366', '39573', '14526']</td>
-      <td>09/28/04</td>
-      <td>['Fantasy', 'Young Adult', 'Fiction', 'Magic',...</td>
-      <td>4.50</td>
-      <td>870</td>
-      <td>Harry Potter and the Order of the Phoenix</td>
-      <td>J.K. Rowling, Mary GrandPré (Illustrator)</td>
-      <td>English</td>
-      <td>There is a door at the end of a silent corrido...</td>
-      <td>https://i.gr-assets.com/images/S/compressed.ph...</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2657.To_Kill_a_Mockingbird</td>
-      <td>['2363896', '1333153', '573280', '149952', '80...</td>
-      <td>05/23/06</td>
-      <td>['Classics', 'Fiction', 'Historical Fiction', ...</td>
-      <td>4.28</td>
-      <td>324</td>
-      <td>To Kill a Mockingbird</td>
-      <td>Harper Lee</td>
-      <td>English</td>
-      <td>The unforgettable novel of a childhood in a sl...</td>
-      <td>https://i.gr-assets.com/images/S/compressed.ph...</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>1885.Pride_and_Prejudice</td>
-      <td>['1617567', '816659', '373311', '113934', '767...</td>
-      <td>10/10/00</td>
-      <td>['Classics', 'Fiction', 'Romance', 'Historical...</td>
-      <td>4.26</td>
-      <td>279</td>
-      <td>Pride and Prejudice</td>
-      <td>Jane Austen, Anna Quindlen (Introduction)</td>
-      <td>English</td>
-      <td>Alternate cover edition of ISBN 9780679783268S...</td>
-      <td>https://i.gr-assets.com/images/S/compressed.ph...</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>41865.Twilight</td>
-      <td>['1751460', '1113682', '1008686', '542017', '5...</td>
-      <td>09/06/06</td>
-      <td>['Young Adult', 'Fantasy', 'Romance', 'Vampire...</td>
-      <td>3.60</td>
-      <td>501</td>
-      <td>Twilight</td>
-      <td>Stephenie Meyer</td>
-      <td>English</td>
-      <td>About three things I was absolutely positive.\...</td>
-      <td>https://i.gr-assets.com/images/S/compressed.ph...</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-c0718b13-8ef8-4b89-abdc-546bce3b5a07')"
-              title="Convert this dataframe to an interactive table."
-              style="display:none;">
-
-  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
-       width="24px">
-    <path d="M0 0h24v24H0V0z" fill="none"/>
-    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
-  </svg>
-      </button>
-
-  <style>
-    .colab-df-container {
-      display:flex;
-      flex-wrap:wrap;
-      gap: 12px;
-    }
-
-    .colab-df-convert {
-      background-color: #E8F0FE;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      display: none;
-      fill: #1967D2;
-      height: 32px;
-      padding: 0 0 0 0;
-      width: 32px;
-    }
-
-    .colab-df-convert:hover {
-      background-color: #E2EBFA;
-      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
-      fill: #174EA6;
-    }
-
-    [theme=dark] .colab-df-convert {
-      background-color: #3B4455;
-      fill: #D2E3FC;
-    }
-
-    [theme=dark] .colab-df-convert:hover {
-      background-color: #434B5C;
-      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
-      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
-      fill: #FFFFFF;
-    }
-  </style>
-
-      <script>
-        const buttonEl =
-          document.querySelector('#df-c0718b13-8ef8-4b89-abdc-546bce3b5a07 button.colab-df-convert');
-        buttonEl.style.display =
-          google.colab.kernel.accessAllowed ? 'block' : 'none';
-
-        async function convertToInteractive(key) {
-          const element = document.querySelector('#df-c0718b13-8ef8-4b89-abdc-546bce3b5a07');
-          const dataTable =
-            await google.colab.kernel.invokeFunction('convertToInteractive',
-                                                     [key], {});
-          if (!dataTable) return;
-
-          const docLinkHtml = 'Like what you see? Visit the ' +
-            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
-            + ' to learn more about interactive tables.';
-          element.innerHTML = '';
-          dataTable['output_type'] = 'display_data';
-          await google.colab.output.renderOutput(dataTable, element);
-          const docLink = document.createElement('div');
-          docLink.innerHTML = docLinkHtml;
-          element.appendChild(docLink);
-        }
-      </script>
-    </div>
-  </div>
-
-
-
-
-
 ```python
 # Let's remove rows with 'Nan'
 df.dropna(inplace=True)
 df.head(5)
 ```
-
-
-
-
-
-  <div id="df-692bb686-c870-4938-a14d-c9c2cfec84e9">
-    <div class="colab-df-container">
-      <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>bookId</th>
-      <th>ratingsByStars</th>
-      <th>publishDate</th>
-      <th>genres</th>
-      <th>rating</th>
-      <th>pages</th>
-      <th>title</th>
-      <th>author</th>
-      <th>language</th>
-      <th>description</th>
-      <th>coverImg</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>2767052-the-hunger-games</td>
-      <td>['3444695', '1921313', '745221', '171994', '93...</td>
-      <td>09/14/08</td>
-      <td>['Young Adult', 'Fiction', 'Dystopia', 'Fantas...</td>
-      <td>4.33</td>
-      <td>374</td>
-      <td>The Hunger Games</td>
-      <td>Suzanne Collins</td>
-      <td>English</td>
-      <td>WINNING MEANS FAME AND FORTUNE.LOSING MEANS CE...</td>
-      <td>https://i.gr-assets.com/images/S/compressed.ph...</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2.Harry_Potter_and_the_Order_of_the_Phoenix</td>
-      <td>['1593642', '637516', '222366', '39573', '14526']</td>
-      <td>09/28/04</td>
-      <td>['Fantasy', 'Young Adult', 'Fiction', 'Magic',...</td>
-      <td>4.50</td>
-      <td>870</td>
-      <td>Harry Potter and the Order of the Phoenix</td>
-      <td>J.K. Rowling, Mary GrandPré (Illustrator)</td>
-      <td>English</td>
-      <td>There is a door at the end of a silent corrido...</td>
-      <td>https://i.gr-assets.com/images/S/compressed.ph...</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2657.To_Kill_a_Mockingbird</td>
-      <td>['2363896', '1333153', '573280', '149952', '80...</td>
-      <td>05/23/06</td>
-      <td>['Classics', 'Fiction', 'Historical Fiction', ...</td>
-      <td>4.28</td>
-      <td>324</td>
-      <td>To Kill a Mockingbird</td>
-      <td>Harper Lee</td>
-      <td>English</td>
-      <td>The unforgettable novel of a childhood in a sl...</td>
-      <td>https://i.gr-assets.com/images/S/compressed.ph...</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>1885.Pride_and_Prejudice</td>
-      <td>['1617567', '816659', '373311', '113934', '767...</td>
-      <td>10/10/00</td>
-      <td>['Classics', 'Fiction', 'Romance', 'Historical...</td>
-      <td>4.26</td>
-      <td>279</td>
-      <td>Pride and Prejudice</td>
-      <td>Jane Austen, Anna Quindlen (Introduction)</td>
-      <td>English</td>
-      <td>Alternate cover edition of ISBN 9780679783268S...</td>
-      <td>https://i.gr-assets.com/images/S/compressed.ph...</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>41865.Twilight</td>
-      <td>['1751460', '1113682', '1008686', '542017', '5...</td>
-      <td>09/06/06</td>
-      <td>['Young Adult', 'Fantasy', 'Romance', 'Vampire...</td>
-      <td>3.60</td>
-      <td>501</td>
-      <td>Twilight</td>
-      <td>Stephenie Meyer</td>
-      <td>English</td>
-      <td>About three things I was absolutely positive.\...</td>
-      <td>https://i.gr-assets.com/images/S/compressed.ph...</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-692bb686-c870-4938-a14d-c9c2cfec84e9')"
-              title="Convert this dataframe to an interactive table."
-              style="display:none;">
-
-  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
-       width="24px">
-    <path d="M0 0h24v24H0V0z" fill="none"/>
-    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
-  </svg>
-      </button>
-
-  <style>
-    .colab-df-container {
-      display:flex;
-      flex-wrap:wrap;
-      gap: 12px;
-    }
-
-    .colab-df-convert {
-      background-color: #E8F0FE;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      display: none;
-      fill: #1967D2;
-      height: 32px;
-      padding: 0 0 0 0;
-      width: 32px;
-    }
-
-    .colab-df-convert:hover {
-      background-color: #E2EBFA;
-      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
-      fill: #174EA6;
-    }
-
-    [theme=dark] .colab-df-convert {
-      background-color: #3B4455;
-      fill: #D2E3FC;
-    }
-
-    [theme=dark] .colab-df-convert:hover {
-      background-color: #434B5C;
-      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
-      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
-      fill: #FFFFFF;
-    }
-  </style>
-
-      <script>
-        const buttonEl =
-          document.querySelector('#df-692bb686-c870-4938-a14d-c9c2cfec84e9 button.colab-df-convert');
-        buttonEl.style.display =
-          google.colab.kernel.accessAllowed ? 'block' : 'none';
-
-        async function convertToInteractive(key) {
-          const element = document.querySelector('#df-692bb686-c870-4938-a14d-c9c2cfec84e9');
-          const dataTable =
-            await google.colab.kernel.invokeFunction('convertToInteractive',
-                                                     [key], {});
-          if (!dataTable) return;
-
-          const docLinkHtml = 'Like what you see? Visit the ' +
-            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
-            + ' to learn more about interactive tables.';
-          element.innerHTML = '';
-          dataTable['output_type'] = 'display_data';
-          await google.colab.output.renderOutput(dataTable, element);
-          const docLink = document.createElement('div');
-          docLink.innerHTML = docLinkHtml;
-          element.appendChild(docLink);
-        }
-      </script>
-    </div>
-  </div>
-
 
 
 
@@ -485,9 +108,6 @@ df[['ratingStar5', 'ratingStar4', 'ratingStar3', 'ratingStar2', 'ratingStar1']] 
 df.drop('ratingsByStars', axis=1, inplace=True)
 ```
 
-    <ipython-input-4-e7ff801fc3a9>:3: FutureWarning: The default value of regex will change from True to False in a future version.
-      df[['ratingStar5', 'ratingStar4', 'ratingStar3', 'ratingStar2', 'ratingStar1']] = df['ratingsByStars'].str.replace("\[\'",'').str.replace("\'\]",'').str.split("', '", expand = True).apply(pd.to_numeric)
-
 
 
 ```python
@@ -496,9 +116,6 @@ df = df[df["genres"].str.contains("\[\]") == False].copy() # remove empty string
 df['genreSingle'] = df['genres'].str.replace("\[\'",'').str.replace("\'\]",'').str.split("', '", expand = True)[0]
 df.drop('genres', axis=1, inplace=True)
 ```
-
-    <ipython-input-5-10248fca3af0>:3: FutureWarning: The default value of regex will change from True to False in a future version.
-      df['genreSingle'] = df['genres'].str.replace("\[\'",'').str.replace("\'\]",'').str.split("', '", expand = True)[0]
 
 
 
@@ -538,11 +155,6 @@ fig.set_size_inches(10,7)
 column = "rating"
 df[column].plot.hist(bins=30, title=column)
 ```
-
-
-
-
-    <Axes: title={'center': 'rating'}, ylabel='Frequency'>
 
 
 
@@ -696,32 +308,6 @@ top_10_pages[['title', 'pages']]
       fill: #FFFFFF;
     }
   </style>
-
-      <script>
-        const buttonEl =
-          document.querySelector('#df-89ef7993-1cb2-4acf-8ff3-c61dbacabbce button.colab-df-convert');
-        buttonEl.style.display =
-          google.colab.kernel.accessAllowed ? 'block' : 'none';
-
-        async function convertToInteractive(key) {
-          const element = document.querySelector('#df-89ef7993-1cb2-4acf-8ff3-c61dbacabbce');
-          const dataTable =
-            await google.colab.kernel.invokeFunction('convertToInteractive',
-                                                     [key], {});
-          if (!dataTable) return;
-
-          const docLinkHtml = 'Like what you see? Visit the ' +
-            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
-            + ' to learn more about interactive tables.';
-          element.innerHTML = '';
-          dataTable['output_type'] = 'display_data';
-          await google.colab.output.renderOutput(dataTable, element);
-          const docLink = document.createElement('div');
-          docLink.innerHTML = docLinkHtml;
-          element.appendChild(docLink);
-        }
-      </script>
-    </div>
   </div>
 
 
@@ -868,32 +454,6 @@ top_10_ratings[['title', 'ratingStar5']]
       fill: #FFFFFF;
     }
   </style>
-
-      <script>
-        const buttonEl =
-          document.querySelector('#df-467ebdfd-25f0-40ee-97e3-e18027cf7f7a button.colab-df-convert');
-        buttonEl.style.display =
-          google.colab.kernel.accessAllowed ? 'block' : 'none';
-
-        async function convertToInteractive(key) {
-          const element = document.querySelector('#df-467ebdfd-25f0-40ee-97e3-e18027cf7f7a');
-          const dataTable =
-            await google.colab.kernel.invokeFunction('convertToInteractive',
-                                                     [key], {});
-          if (!dataTable) return;
-
-          const docLinkHtml = 'Like what you see? Visit the ' +
-            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
-            + ' to learn more about interactive tables.';
-          element.innerHTML = '';
-          dataTable['output_type'] = 'display_data';
-          await google.colab.output.renderOutput(dataTable, element);
-          const docLink = document.createElement('div');
-          docLink.innerHTML = docLinkHtml;
-          element.appendChild(docLink);
-        }
-      </script>
-    </div>
   </div>
 
 
@@ -1043,32 +603,6 @@ top_10_counts
       fill: #FFFFFF;
     }
   </style>
-
-      <script>
-        const buttonEl =
-          document.querySelector('#df-b29a374e-bf87-4720-a085-ea361d04892f button.colab-df-convert');
-        buttonEl.style.display =
-          google.colab.kernel.accessAllowed ? 'block' : 'none';
-
-        async function convertToInteractive(key) {
-          const element = document.querySelector('#df-b29a374e-bf87-4720-a085-ea361d04892f');
-          const dataTable =
-            await google.colab.kernel.invokeFunction('convertToInteractive',
-                                                     [key], {});
-          if (!dataTable) return;
-
-          const docLinkHtml = 'Like what you see? Visit the ' +
-            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
-            + ' to learn more about interactive tables.';
-          element.innerHTML = '';
-          dataTable['output_type'] = 'display_data';
-          await google.colab.output.renderOutput(dataTable, element);
-          const docLink = document.createElement('div');
-          docLink.innerHTML = docLinkHtml;
-          element.appendChild(docLink);
-        }
-      </script>
-    </div>
   </div>
 
 
@@ -1212,32 +746,6 @@ books_per_year
       fill: #FFFFFF;
     }
   </style>
-
-      <script>
-        const buttonEl =
-          document.querySelector('#df-c64dff9b-a44c-4bde-9301-3ca9636976e6 button.colab-df-convert');
-        buttonEl.style.display =
-          google.colab.kernel.accessAllowed ? 'block' : 'none';
-
-        async function convertToInteractive(key) {
-          const element = document.querySelector('#df-c64dff9b-a44c-4bde-9301-3ca9636976e6');
-          const dataTable =
-            await google.colab.kernel.invokeFunction('convertToInteractive',
-                                                     [key], {});
-          if (!dataTable) return;
-
-          const docLinkHtml = 'Like what you see? Visit the ' +
-            '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
-            + ' to learn more about interactive tables.';
-          element.innerHTML = '';
-          dataTable['output_type'] = 'display_data';
-          await google.colab.output.renderOutput(dataTable, element);
-          const docLink = document.createElement('div');
-          docLink.innerHTML = docLinkHtml;
-          element.appendChild(docLink);
-        }
-      </script>
-    </div>
   </div>
 
 
@@ -1249,11 +757,6 @@ books_per_year
 column = "publishYear"
 df[['bookId', 'publishYear']].plot.hist(bins=len(books_per_year), title=column, figsize=(20,10))
 ```
-
-
-
-
-    <Axes: title={'center': 'publishYear'}, ylabel='Frequency'>
 
 
 
@@ -1721,118 +1224,7 @@ else:
     Evaluating performance
     -- Model 0 accuracy:  0.5702134404057482 
     
-
-
-    INFO:gensim.models.word2vec:EPOCH 1 - PROGRESS: at 4.55% examples, 42658 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 1 - PROGRESS: at 9.99% examples, 47867 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 1 - PROGRESS: at 17.39% examples, 52156 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 1 - PROGRESS: at 22.90% examples, 52426 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 1 - PROGRESS: at 28.38% examples, 52167 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 1 - PROGRESS: at 30.21% examples, 42774 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 1 - PROGRESS: at 33.83% examples, 40146 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 1 - PROGRESS: at 37.55% examples, 38712 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 1 - PROGRESS: at 42.17% examples, 38904 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 1 - PROGRESS: at 48.75% examples, 40762 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 1 - PROGRESS: at 55.35% examples, 42418 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 1 - PROGRESS: at 61.78% examples, 43771 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 1 - PROGRESS: at 68.38% examples, 44996 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 1 - PROGRESS: at 73.94% examples, 45345 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 1 - PROGRESS: at 79.52% examples, 45769 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 1 - PROGRESS: at 85.12% examples, 46124 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 1 - PROGRESS: at 91.45% examples, 46933 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 1 - PROGRESS: at 96.91% examples, 47256 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 1: training on 1079161 raw words (1008099 effective words) took 21.4s, 47114 effective words/s
-
-
-    Model 1 saved to file
-    Evaluating performance
-    -- Model 1 accuracy:  0.592138630600169 
-    
-
-
-    INFO:gensim.models.word2vec:EPOCH 2 - PROGRESS: at 6.42% examples, 51683 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 2 - PROGRESS: at 11.91% examples, 53306 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 2 - PROGRESS: at 17.39% examples, 53310 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 2 - PROGRESS: at 22.90% examples, 53390 words/s, in_qsize 4, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 2 - PROGRESS: at 28.38% examples, 53547 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 2 - PROGRESS: at 35.69% examples, 54846 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 2 - PROGRESS: at 43.11% examples, 55639 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 2 - PROGRESS: at 50.63% examples, 54785 words/s, in_qsize 4, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 2 - PROGRESS: at 54.42% examples, 52367 words/s, in_qsize 4, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 2 - PROGRESS: at 58.09% examples, 49328 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 2 - PROGRESS: at 62.65% examples, 48068 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 2 - PROGRESS: at 67.40% examples, 47454 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 2 - PROGRESS: at 73.02% examples, 47742 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 2 - PROGRESS: at 78.59% examples, 48028 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 2 - PROGRESS: at 84.18% examples, 48369 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 2 - PROGRESS: at 89.63% examples, 48706 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 2 - PROGRESS: at 96.08% examples, 49464 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 2: training on 1079161 raw words (1007923 effective words) took 20.2s, 49936 effective words/s
-
-
-    Model 2 saved to file
-    Evaluating performance
-    -- Model 2 accuracy:  0.5944103972950128 
-    
-
-
-    INFO:gensim.models.word2vec:EPOCH 3 - PROGRESS: at 2.78% examples, 24699 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 3 - PROGRESS: at 6.40% examples, 28636 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 3 - PROGRESS: at 10.08% examples, 30597 words/s, in_qsize 2, out_qsize 1
-    INFO:gensim.models.word2vec:EPOCH 3 - PROGRESS: at 17.39% examples, 38659 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 3 - PROGRESS: at 24.77% examples, 43011 words/s, in_qsize 4, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 3 - PROGRESS: at 32.04% examples, 45968 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 3 - PROGRESS: at 39.39% examples, 48160 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 3 - PROGRESS: at 45.96% examples, 49815 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 3 - PROGRESS: at 52.52% examples, 50509 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 3 - PROGRESS: at 60.01% examples, 51452 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 3 - PROGRESS: at 67.40% examples, 52190 words/s, in_qsize 4, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 3 - PROGRESS: at 73.02% examples, 51058 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 3 - PROGRESS: at 75.76% examples, 49423 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 3 - PROGRESS: at 78.59% examples, 47883 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 3 - PROGRESS: at 82.29% examples, 46986 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 3 - PROGRESS: at 86.95% examples, 46525 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 3 - PROGRESS: at 93.29% examples, 47222 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 3 - PROGRESS: at 99.09% examples, 47653 words/s, in_qsize 1, out_qsize 1
-    INFO:gensim.models.word2vec:EPOCH 3: training on 1079161 raw words (1008227 effective words) took 21.0s, 47928 effective words/s
-
-
-    Model 3 saved to file
-    Evaluating performance
-    -- Model 3 accuracy:  0.5946217244294167 
-    
-
-
-    INFO:gensim.models.word2vec:EPOCH 4 - PROGRESS: at 6.40% examples, 50928 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 4 - PROGRESS: at 12.83% examples, 56913 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 4 - PROGRESS: at 19.28% examples, 55820 words/s, in_qsize 2, out_qsize 1
-    INFO:gensim.models.word2vec:EPOCH 4 - PROGRESS: at 24.77% examples, 55416 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 4 - PROGRESS: at 28.41% examples, 49931 words/s, in_qsize 4, out_qsize 1
-    INFO:gensim.models.word2vec:EPOCH 4 - PROGRESS: at 31.96% examples, 46344 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 4 - PROGRESS: at 35.69% examples, 43673 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 4 - PROGRESS: at 39.39% examples, 42449 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 4 - PROGRESS: at 44.99% examples, 43475 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 4 - PROGRESS: at 51.58% examples, 45217 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 4 - PROGRESS: at 58.09% examples, 45991 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 4 - PROGRESS: at 65.47% examples, 47201 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 4 - PROGRESS: at 71.14% examples, 47700 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 4 - PROGRESS: at 78.59% examples, 48433 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 4 - PROGRESS: at 84.18% examples, 48716 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 4 - PROGRESS: at 89.63% examples, 48933 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 4 - PROGRESS: at 95.18% examples, 49154 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 4 - PROGRESS: at 97.88% examples, 48113 words/s, in_qsize 3, out_qsize 0
-    INFO:gensim.models.word2vec:EPOCH 4: training on 1079161 raw words (1008092 effective words) took 21.0s, 47958 effective words/s
-
-
-    Model 4 saved to file
-    Evaluating performance
-
-
-    INFO:gensim.utils:Word2Vec lifecycle event {'msg': 'training on 5395805 raw words (5040519 effective words) took 573.0s, 8797 effective words/s', 'datetime': '2023-06-05T21:39:50.183110', 'gensim': '4.3.1', 'python': '3.10.11 (main, Apr  5 2023, 14:15:10) [GCC 9.4.0]', 'platform': 'Linux-5.15.107+-x86_64-with-glibc2.31', 'event': 'train'}
-    INFO:gensim.utils:Word2Vec lifecycle event {'params': 'Word2Vec<vocab=11628, vector_size=300, alpha=0.025>', 'datetime': '2023-06-05T21:39:50.184747', 'gensim': '4.3.1', 'python': '3.10.11 (main, Apr  5 2023, 14:15:10) [GCC 9.4.0]', 'platform': 'Linux-5.15.107+-x86_64-with-glibc2.31', 'event': 'created'}
-
-
-    -- Model 4 accuracy:  0.5966293322062552 
+    ........
     
     Best model so far is model 4 with an accuracy score of 0.5966293322062552
     Training complete
