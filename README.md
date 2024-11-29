@@ -31,8 +31,6 @@ drive.mount(save_path, force_remount=True)
 save_path += 'MyDrive/DataMining/BookRecommendation/'
 ```
 
-    Mounted at /content/gdrive/
-
 
 # **Preprocessing**
 
