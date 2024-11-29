@@ -1,4 +1,4 @@
-_This project is a team assignment for the "Data Mining" course of the [Department of Informatics](https://di.uoa.gr/en/) at [University of Athens](https://en.uoa.gr/)._
+_This project is a team assignment for the "Data Mining Techniques (YS11)" course of the [Department of Informatics](https://di.uoa.gr/en/) at [University of Athens](https://en.uoa.gr/)._
 
 _This repository was not used during the development of the project. The project was developed in a private repository and was uploaded here after the official completion of the course._
 
